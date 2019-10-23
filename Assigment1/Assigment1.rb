@@ -7,9 +7,9 @@ require "./StockObject.rb"
 $gene = []
 $stockdata = []
 $crossdata = []
-Gene.data("./gene_information.tsv")
-StockData.data("./seed_stock_data.tsv")
-CrossData.data("./cross_data.tsv")
+Gene.data(ARGV[0])
+StockData.data(ARGV[1])
+CrossData.data(ARGV[2])
 
 
 StockData.seed(7, "21/10/2019", "./seed_stock_data.tsv")
