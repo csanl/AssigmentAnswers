@@ -45,7 +45,7 @@ class StockData
         end
         $stockdata[i].last_planted = date
       end
-      new = File.new("new_stock_file.tsv", "w")
+      new = File.new(ARGV[3], "w")
       File.readlines(lastfile).each_with_index do |line, index|
         if index == 0
           new.write("#{line}")
