@@ -18,6 +18,8 @@ class CrossData
       @f2_p1p2 = params.fetch(:f2_p1p2, "0")
      
   end
+
+#this Class method creates some objects from a file, they are saved in a global variable called "crossdata". It works similar than the other classes already explained. 
   def CrossData.data(thisfile)
     File.readlines(thisfile).each_with_index do |line, index|
     next line if index == 0
@@ -31,28 +33,31 @@ class CrossData
       :f2_p1p2 => f2_p1p2.to_i)
     end
   end
-  
+ 
+#this Class method allows us to know the gene name of the CrossData Object we choose, thanks to the hash created in the StockData method "gene_information" (by linking the Gene Class information to the StockData Class)
   def CrossData.get_name (crossdata_object)
     return $hashinfo["#{crossdata_object}"].name
-end
-  
+  end
+
+#this Class method obtain the chi-square value of the crosses represented in the data.
   def CrossData.chi_square
       for i in 0..($crossdata.length-1)
-       n = $crossdata[i].f2_wild + $crossdata[i].f2_p1 + $crossdata[i].f2_p2 + $crossdata[i].f2_p1p2
-        exp_wild = 9.fdiv(16)*n
+        #n is the total number of individuals in every cross
+       n = $crossdata[i].f2_wild + $crossdata[i].f2_p1 + $crossdata[i].f2_p2 + $crossdata[i].f2_p1p2 
+        #expected number of individuals according to the total number and the expected proportion (9:3:3:1) if the genes were genetically independent
+        exp_wild = 9.fdiv(16)*n 
         exp_p1 = 3.fdiv(16)*n
         exp_p2 = 3.fdiv(16)*n
         exp_p1p2 = 1.fdiv(16)*n
        chi_square = ((($crossdata[i].f2_wild - exp_wild)**2)/exp_wild) + ((($crossdata[i].f2_p1 - exp_p1)**2)/exp_p1) + ((($crossdata[i].f2_p2 - exp_p2)**2)/exp_p2) + ((($crossdata[i].f2_p1p2 - exp_p1p2)**2)/exp_p1p2)
 #         puts "chi-square  for #{$crossdata[i].parent1} x #{$crossdata[i].parent2} is #{chi_square}"
-        if chi_square > 7.82 
+        if chi_square > 7.82 #this value is taken from the chi-square table with 3 degrees of freedom and 95% of confiden interval
         puts "Recording: #{CrossData.get_name($crossdata[i].parent1)} is genetically linked to #{CrossData.get_name($crossdata[i].parent2)} with chi-square score #{chi_square}"
         puts "\n\n\nFinal Report:\n#{CrossData.get_name($crossdata[i].parent1)} is linked to #{CrossData.get_name($crossdata[i].parent2)}\n#{CrossData.get_name($crossdata[i].parent2)} is linked to #{CrossData.get_name($crossdata[i].parent1)}"
         end
       end
   end
   
-    
   
    
 end
