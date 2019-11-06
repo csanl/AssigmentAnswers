@@ -1,0 +1,88 @@
+Assigment2
+------------------------------
+------------------------------
+NETWORK ID: AT4G09010
+Number of genes in this network: 15
+Genes interacting at level 2 as maximum level  and its annotations
+	 AT3G53900
+		 GO ID: GO:0016036;	 GO Term name: P:cellular response to phosphate starvation
+		 GO ID: GO:0032502;	 GO Term name: P:developmental process
+		 GO ID: GO:0009116;	 GO Term name: P:nucleoside metabolic process
+		 GO ID: GO:0044206;	 GO Term name: P:UMP salvage
+		 GO ID: GO:0006223;	 GO Term name: P:uracil salvage
+		 KEGG Pathways ID => Pathways name : ["ath00240", "Pyrimidine metabolism"]
+		 KEGG Pathways ID => Pathways name : ["ath01100", "Metabolic pathways"]
+	 AT4G09010
+		 GO ID: GO:0034599;	 GO Term name: P:cellular response to oxidative stress
+		 GO ID: GO:0042744;	 GO Term name: P:hydrogen peroxide catabolic process
+		 GO ID: GO:0000302;	 GO Term name: P:response to reactive oxygen species
+		 GO ID: GO:0006979;	 GO Term name: P:response to oxidative stress
+		 KEGG Pathways ID => Pathways name : ["ath00053", "Ascorbate and aldarate metabolism"]
+		 KEGG Pathways ID => Pathways name : ["ath00480", "Glutathione metabolism"]
+		 KEGG Pathways ID => Pathways name : ["ath01100", "Metabolic pathways"]
+------------------------------
+------------------------------
+NETWORK ID: AT5G43750
+Number of genes in this network: 773
+Genes interacting at level 2 as maximum level  and its annotations
+	 AT5G04990
+		 GO ID: GO:0070197;	 GO Term name: P:meiotic attachment of telomere to nuclear envelope
+		 GO ID: GO:0006998;	 GO Term name: P:nuclear envelope organization
+		 GO ID: GO:0006997;	 GO Term name: P:nucleus organization
+		 GO ID: GO:0051291;	 GO Term name: P:protein heterooligomerization
+		 GO ID: GO:0051260;	 GO Term name: P:protein homooligomerization
+		 GO ID: GO:0090435;	 GO Term name: P:protein localization to nuclear envelope
+		 GO ID: GO:2000769;	 GO Term name: P:regulation of establishment or maintenance of cell polarity regulating cell shape
+		 GO ID: GO:0007062;	 GO Term name: P:sister chromatid cohesion
+	 AT5G43750
+		 GO ID: GO:0006979;	 GO Term name: P:response to oxidative stress
+	 AT1G17280
+		 GO ID: GO:0042631;	 GO Term name: P:cellular response to water deprivation
+		 GO ID: GO:1902457;	 GO Term name: P:negative regulation of stomatal opening
+		 GO ID: GO:0000209;	 GO Term name: P:protein polyubiquitination
+		 GO ID: GO:0030433;	 GO Term name: P:ubiquitin-dependent ERAD pathway
+		 GO ID: GO:0006511;	 GO Term name: P:ubiquitin-dependent protein catabolic process
+		 KEGG Pathways ID => Pathways name : ["ath04120", "Ubiquitin mediated proteolysis"]
+		 KEGG Pathways ID => Pathways name : ["ath04141", "Protein processing in endoplasmic reticulum"]
+	 AT4G20790
+	 AT1G14360
+		 GO ID: GO:0008643;	 GO Term name: P:carbohydrate transport
+		 GO ID: GO:0009553;	 GO Term name: P:embryo sac development
+		 GO ID: GO:0030968;	 GO Term name: P:endoplasmic reticulum unfolded protein response
+		 GO ID: GO:0009555;	 GO Term name: P:pollen development
+		 GO ID: GO:0072334;	 GO Term name: P:UDP-galactose transmembrane transport
+		 GO ID: GO:0055085;	 GO Term name: P:transmembrane transport
+	 AT2G22425
+		 GO ID: GO:0045047;	 GO Term name: P:protein targeting to ER
+		 GO ID: GO:0006465;	 GO Term name: P:signal peptide processing
+		 GO ID: GO:0048658;	 GO Term name: P:anther wall tapetum development
+		 KEGG Pathways ID => Pathways name : ["ath03060", "Protein export"]
+	 AT3G12180
+		 GO ID: GO:0016192;	 GO Term name: P:vesicle-mediated transport
+	 AT5G35460
+		 GO ID: GO:0006656;	 GO Term name: P:phosphatidylcholine biosynthetic process
+	 AT5G47180
+		 GO ID: GO:0090158;	 GO Term name: P:endoplasmic reticulum membrane organization
+		 GO ID: GO:0061817;	 GO Term name: P:endoplasmic reticulum-plasma membrane tethering
+	 AT1G29060
+		 GO ID: GO:1901002;	 GO Term name: P:positive regulation of response to salt stress
+		 GO ID: GO:0015031;	 GO Term name: P:protein transport
+		 GO ID: GO:0047484;	 GO Term name: P:regulation of response to osmotic stress
+		 GO ID: GO:0043182;	 GO Term name: P:vacuolar sequestering of sodium ion
+		 GO ID: GO:0016192;	 GO Term name: P:vesicle-mediated transport
+		 KEGG Pathways ID => Pathways name : ["ath04130", "SNARE interactions in vesicular transport"]
+	 AT3G10640
+		 GO ID: GO:0015031;	 GO Term name: P:protein transport
+		 GO ID: GO:0007034;	 GO Term name: P:vacuolar transport
+		 KEGG Pathways ID => Pathways name : ["ath04144", "Endocytosis"]
+	 AT1G70760
+		 GO ID: GO:0010258;	 GO Term name: P:NADH dehydrogenase complex (plastoquinone) assembly
+		 GO ID: GO:0009773;	 GO Term name: P:photosynthetic electron transport in photosystem I
+	 AT2G43420
+		 GO ID: GO:0016126;	 GO Term name: P:sterol biosynthetic process
+		 GO ID: GO:0006694;	 GO Term name: P:steroid biosynthetic process
+		 KEGG Pathways ID => Pathways name : ["ath00100", "Steroid biosynthesis"]
+		 KEGG Pathways ID => Pathways name : ["ath01100", "Metabolic pathways"]
+		 KEGG Pathways ID => Pathways name : ["ath01110", "Biosynthesis of secondary metabolites"]
+------------------------------
+END
