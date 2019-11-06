@@ -1,0 +1,5 @@
+For running the program: 
+$ ruby Assigment1.rb gene_information.tsv seed_stock_data.tsv cross_data.tsv new_stock_file.tsv 
+
+
+
