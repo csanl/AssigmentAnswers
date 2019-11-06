@@ -1,0 +1,8 @@
+I have worked only with a few genes, included in "genesprueba.txt" file. My code is extremely inefficient and it takes a lot of time making the report... 
+
+for running the program: 
+$ ruby Assigment2.rb genesprueba.txt output.txt 
+
+(where I put genesprueba.txt, you can include any list of gene you want...) 
+I'm sorry for the bad code, I'm new programming and I tried my best. 
+

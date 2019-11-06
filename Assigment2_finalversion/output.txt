@@ -1,0 +1,17 @@
+Assigment2
+------------------------------
+------------------------------
+NETWORK ID: AT5G19120
+Number of genes in this network: 47
+Genes interacting at level 2 as maximum level  and its annotations
+	 AT3G46090
+		 GO ID: GO:0045926;	 GO Term name: P:negative regulation of growth
+		 GO ID: GO:0006355;	 GO Term name: P:regulation of transcription, DNA-templated
+		 GO ID: GO:0010200;	 GO Term name: P:response to chitin
+		 GO ID: GO:0006979;	 GO Term name: P:response to oxidative stress
+		 GO ID: GO:0006629;	 GO Term name: P:lipid metabolic process
+	 AT5G19120
+		 GO ID: GO:0030163;	 GO Term name: P:protein catabolic process
+		 GO ID: GO:0006508;	 GO Term name: P:proteolysis
+------------------------------
+END
