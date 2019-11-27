@@ -136,7 +136,7 @@ def chr_target_pos(exon, chr_info, agi_code) #we add the position we have for th
     exon[1]["target_pos_ini"].each_with_index do |n, index|
     chr_ini = chr_info[3].to_i + n 
     chr_end = chr_info[4].to_i + exon[1]["target_pos_end"][index]
-    $gff_chr.puts "#{chr_info[0]}\t.\tnucleotide_motif\t#{chr_ini}\t#{chr_end}\t.\t#{exon[1]["strand"]}\t.\t#{exon[0]};parent=#{agi_code}"
+    $gff_chr.puts "#{chr_info[2]}\t.\tnucleotide_motif\t#{chr_ini}\t#{chr_end}\t.\t#{exon[1]["strand"]}\t.\t#{exon[0]};parent=#{agi_code}"
  
   end
   end 
